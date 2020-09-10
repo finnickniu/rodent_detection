@@ -1,0 +1,12 @@
+{
+    "classes": [
+        {
+            "title": "rat",
+            "shape": "rectangle",
+            "color": "#F66623",
+            "geometry_config": {}
+        }
+     
+    ],
+    "tags": []
+}
