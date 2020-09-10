@@ -20,11 +20,6 @@ import time
 import base64
 import argparse
 
-
-"""----------constant--------"""
-
-
-
 class Server(object):
     def __init__(self,args):
         self.headers={'Content-type':'application/json', 'Accept':'application/json'}
@@ -140,7 +135,6 @@ if __name__ == '__main__':
 
     #time = (start_time, end_time,email_sent_time)
     sever = Server(args)
-
     sever.run()
     #sever.main(cam_dir="rtsp:root:pass@192.168.1.90/axis-media/media.amp?",top=50,show=True)
 
